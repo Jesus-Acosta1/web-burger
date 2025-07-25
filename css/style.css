@@ -28,10 +28,31 @@ body > * {
     
 }
 
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container { 
+    }
+  
+} */
+
+/* Qmedia screen and (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            'nav'
+            'header'
+            'section'
+            'article'
+            'aside'
+            'footer';
+        grid-template-rows: auto auto 1fr 1fr auto auto;
+        grid-template-columns: 1fr; 
+    }
+}*/
+
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: x-large;
+
 }
 header {
   grid-area: header;
@@ -112,6 +133,7 @@ footer {
   background-color: rgb(241, 60, 91);
   border: solid 2px rgb(255, 255, 255);
   border-radius: 20px;
+  
 }
 
 h1 {
@@ -119,8 +141,6 @@ h1 {
     text-align: center;
     color: rgb(83, 8, 42);
 }
-
-
 
 
 
